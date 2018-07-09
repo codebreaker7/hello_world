@@ -21,3 +21,7 @@ flag_synch.vhd.bak
 flag_synch_tb.vhd.bak
 spi_controller.vhd
 synchronizer.vhd.bak
+generate_example.vhd.bak
+generate_tb.vhd.bak
+register.vhd.bak
+conditional_struct.vhd.bak

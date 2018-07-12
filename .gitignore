@@ -26,3 +26,5 @@ generate_tb.vhd.bak
 register.vhd.bak
 conditional_struct.vhd.bak
 config_usage.vhd.bak
+fsm.vhd.bak
+fsm_tb.vhd.bak

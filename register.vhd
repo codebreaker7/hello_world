@@ -13,8 +13,9 @@ end entity;
 
 architecture behav of reg is
   signal ds: std_logic := '0';
--- psl default clock is rising_edge(clk);
--- psl property check_val is always {d} |=> {q};
+-- psl  default clock is rising_edge(clk);
+-- psl  property check_val is always d -> next q;
+-- psl  assert check_val;
 begin
   process(all)
   begin
@@ -26,5 +27,4 @@ begin
   end process;
   
   q <= ds;
-  -- psl assert check_val;
 end architecture;
